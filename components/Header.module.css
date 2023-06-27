@@ -1,0 +1,48 @@
+/* Header.module.css */
+
+.headerContainer {
+  background-color: #DB621C;
+  padding: 10px;
+  /* border-radius: 10px; */
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav li {
+  margin-right: 30px;
+}
+
+.nav li:last-child {
+  margin-right: 0;
+}
+
+
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.nav a.contactButton {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #245535;
+  color: white;
+  text-decoration: none;
+  font-size: small;
+}
